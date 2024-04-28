@@ -1,0 +1,295 @@
+#fixNav{
+    width: 100%;
+    background-color: tan;
+    display: block;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.5); /*Đổ bóng cho menu*/
+    position: fixed; /*Cho menu cố định 1 vị trí với top và left*/
+    top: 0; 
+    left: 0;
+    z-index: 100000; /*Hiển thị lớp trên cùng*/
+  }
+  a {
+    font-family: Georgia;
+    font-weight: 100;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 25px;
+    color: white; 
+  }
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
+  .box {
+    font-family: Georgia;
+    height: 40px;
+    width: 250px;
+    background-color: Tan;
+    border-radius: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    line-height:40px
+  }
+  input {
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 0px;
+    transition: 0.8s ease;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+  }
+  .box:hover input {
+    width: 150px;
+    margin: 0 0px;
+    border-bottom: 2px solid black;
+  }
+  *{
+    margin:0;
+    padding:0;
+  }
+  .contract1{
+    display: block;
+    height: 20px;
+    width:20px; 
+    border-radius: 50%;
+    border: darked 2px ridge;
+    background-color: lightblue;
+    position: fixed;
+    left:0px;
+    right:250px;
+    top:400px;
+  }
+  .contract2{
+    display: block;
+    height: 20px;
+    width:20px; 
+    border-radius: 50%;
+    border: darked 2px ridge;
+    background-color: lightblue;
+    position: fixed;
+    left:0px;
+    right:250px;
+    top:500px;
+  }
+  .contract3{
+    display: block;
+    height: 20px;
+    width:20px; 
+    border-radius: 50%;
+    border: darked 2px ridge;
+    background-color: lightblue;
+    position: fixed;
+    left:0px;
+    right:250px;
+    top:600px;
+  }
+  .container1 {
+    max-width: 1170px;
+    margin: auto;
+    
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-col ul {
+    list-style: none;
+    font-size:18px;
+    line-height:1.5
+  }
+  .footer {
+    background-color: burlywood;
+    padding: 70px 0;
+  }
+  .footer-col {
+    width: 25%;
+  }
+  .footer-col h4 {
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: bold;
+    position: relative;
+  }
+  .footer-col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: black;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover {
+    color: black;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  .container123{
+  margin-top: 150px;
+  margin-bottom:50px;
+  width: 1200px;
+  height:auto;
+  float: none;
+  background-color: WHITE;
+  padding:10px;
+  display:inline-block
+  }
+  .container123 p,h5{
+    text-align:left;
+    margin-top:10px;
+    line-height:1.5;
+    font-size:18px
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+  }
+  
+  .modal-body {
+    padding: 1rem;
+    
+  }
+  
+  .modal-footer {
+    display: flex;
+    border-top: 1px solid #aaaaaa;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-top: 1px solid #aaaaaa;
+    padding: 1rem;
+  }
+  
+  .modal-footer>:not(:first-child) {
+    margin-left: .25rem;
+  }
+  
+  .btn {
+    cursor: pointer;
+    outline: none;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: all .2s ease-in-out;
+  }
+  
+  .btn-secondary {
+    color: #292b2c;
+    background-color: #ffffff;
+    border-color: #cccccc;
+  }
+  
+  .btn-primary {
+    color: #ffffff;
+    background-color: #0275d8;
+    border-color: #0275d8;
+  }
+  
+  .modal-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #aaaaaa;
+    padding: 1rem;
+  }
+  
+  h5.modal-title {
+    font-size: 1.5rem;
+  }
+  
+  .close {
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #cart {
+    font-size: 15px;
+    color: #ffffff;
+    background: #c7b200;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 1rem;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  #cart:hover {
+    border-color: #ffffff;
+  }

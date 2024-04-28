@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sản phẩm</title>
+    <link rel="stylesheet" href="sanpham.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet"/> 
+     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="/script.js"></script>
+  </head>
+  <header id="fixNav">
+    <div>
+    <center>
+      <table> 
+    <td> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+    <td> <img width="120 px" height="120px" src="logo.png" align="middle"></td>  
+    <td><a href="trangchuuser.html">Trang chủ</a></td>
+    <td><a href="sanphamuser.html">Sản phẩm</a></td>
+    <td><a href="gioithieuuser.html">Giới thiệu</a></td>
+    <td><a href="#">Cửa hàng</a></td>
+    <td><a href="lienheuser.html">Liên hệ</a></td>
+    <td> &emsp;&emsp;&emsp;</td>
+    <td> 
+    <div class="box" >
+      <input type="text" placeholder="Bạn cần tìm gì?"/>
+      <a type="submit" href="javascript:void(0);">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      </a>
+    </div>
+      </td>
+      <td><button id="cart">
+                <i class="bx bxs-shopping-bag bx-sm" aria-hidden="true"></i>
+        </button></td>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Giỏ Hàng</h5>
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                            <span class="cart-price cart-header cart-column">Giá</span>
+                            <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                        </div>
+                        <div class="cart-items">
+                           
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Tổng Cộng:</strong>
+                            <span class="cart-total-price">0VNĐ</span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                        <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                    </div>
+                </div>
+            </div>
+      <td> &emsp;&emsp;&emsp;</td>
+      <td><a href="user"><i class="bx bx-user bx-md"></i></a></td>
+     </table>
+        </center>
+      </div>
+  </header>
+  <body>
+    <a class="contract1" href ="tel:0816417077"><i class="fa-solid fa-phone"></i></a> &emsp;
+    <a class="contract2" href ="Facebook"><i class="fa-brands fa-facebook"></i></a> &emsp;
+    <a class="contract3" href ="Gửi tin nhắn"><i class="fa-brands fa-facebook-messenger"></i></a>    
+    <section class="wrapper">
+        <div class="products">
+            <ul>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="cheese cake.jpg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Cheese Cake</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">25000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="tiramisu.jpg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Tiramisu</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">30000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="black forest.jpg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Black Forest</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">290000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product no-margin">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="victoria sponge.jpg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Victoria Sponge</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">89000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="sachertorte.jpg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Sachertorte
+                        </h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">219000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="swedish princess.jpg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Swedish Princess</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">115000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="lamington.jpg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Lamington</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">50000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product no-margin">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="madeleines.jpg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Madeleines</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">20000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+              <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="mochi.jpg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Mochi</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">25000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="dorayaki.jpg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Dorayaki</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">20000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="macaron.jpg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Macaron</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">10000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product no-margin">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="pandan.jpg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Pandan</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">50000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+              <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="tapioca.jpg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Tapioca</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">15000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="pavlova.jpg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3"> Pavlova</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">28000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="apple pie.jpg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Apple Pie</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">30000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product no-margin">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="gateau st honore.jpg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Gateau St. Honore</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">40000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script src="sanpham.js"></script>
+  </body>
+ <footer class="footer">
+      <div class="container1">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Về cửa hàng</h4>
+            <ul>
+              <li><a href="#">cửa hàng của chúng tôi</a></li>
+              <li><a href="#">Dịch vụ của chúng tôi</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+           <h4>Nhận sự giúp đỡ ở</h4>
+            <ul>
+              <li><a href="#">Giao hàng</a></li>
+              <li><a href="#">Cách liên hệ với chúng tôi</a></li>
+              <li><a href="#">Cách thanh toán</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Thành viên</h4>
+            <ul>
+              <li>Lê Thị Ngọc Ánh-21059631</li>
+              <li>Phạm Nguyễn Thu Hiền-21062271</li>
+              <li>Nguyễn Bảo Khang-21050011</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Theo dõi chúng tôi tại</h4>
+            <div class="map">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.858237982653!2d106.68427047481872!3d10.82215888932937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174deb3ef536f31%3A0x8b7bb8b7c956157b!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBUUC5IQ00!5e0!3m2!1svi!2s!4v1713881891924!5m2!1svi!2s"
+                width="300px"
+                height="300px"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+</html>

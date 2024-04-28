@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LICERIA BAKERY</title>
+    <link rel="stylesheet" href="D:\Lập trình web\26_DHTMDT17D_Liceria Bakery\trangchu.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet"/> 
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="D:\Lập trình web\26_DHTMDT17D_Liceria Bakery\trangchuvaconlai.js"></script>
+  </head>
+  <header id="fixNav">
+    <div>
+    <center>
+      <table> 
+      <td> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+      <td> <img width="120 px" height="120px" src="D:\Lập trình web\26_DHTMDT17D_Liceria Bakery\logo.png" align="middle"></td>  
+    <td><a href="trangchu.html">Trang chủ</a></td>
+    <td><a href="sanpham.html">Sản phẩm</a></td>
+    <td><a href="gioithieu.html">Giới thiệu</a></td>
+    <td><a href="#">Cửa hàng</a></td>
+    <td><a href="lienhe.html">Liên hệ</a></td>
+      <td> &emsp;&emsp;&emsp;</td>
+    <td> 
+    <div class="box" >
+      <input type="text" placeholder="Bạn cần tìm gì?"/>
+      <a type="submit" href="javascript:void(0);">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      </a>
+    </div>
+      </td>
+      <td><button id="cart">
+                <i class="bx bxs-shopping-bag bx-sm" aria-hidden="true"></i>
+        </button></td>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Giỏ Hàng</h5>
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                            <span class="cart-price cart-header cart-column">Giá</span>
+                            <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                        </div>
+                        <div class="cart-items">
+                           
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Tổng Cộng:</strong>
+                            <span class="cart-total-price">0VNĐ</span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                        <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                    </div>
+                </div>
+            </div>
+        <script src="D:\Lập trình web\26_DHTMDT17D_Liceria Bakery\trangchuvaconlai.js"></script>
+      <td><a href="login.html">Đăng nhập</a></td>
+     </table>
+        </center>
+      </div>
+  </header>
+  <body>
+  <div class="container">
+    <div class="gallery-display-area">
+      <div class="gallery-wrap">
+        <div class="image">
+          <img src="D:\Lập trình web\26_DHTMDT17D_Liceria Bakery\slide1.jpg"/>
+        </div>
+        <div class="image">
+          <img src="slide2.jpg"/>
+        </div>
+        <div class="image">
+          <img src="slide3.png"/>
+        </div>
+        <div class="image">
+          <img src="slide4.jpg"/>
+        </div>
+        <div class="image">
+          <img src="slide5.jpg"/>
+        </div>
+      </div>
+    </div>
+    </div>
+    <a class="contract1" href ="tel:0816417077"><i class="fa-solid fa-phone"></i></a> &emsp;
+    <a class="contract2" href ="Facebook"><i class="fa-brands fa-facebook"></i></a> &emsp;
+    <a class="contract3" href ="Gửi tin nhắn"><i class="fa-brands fa-facebook-messenger"></i></a>
+    <center>
+      <hr width="500px" align="left" color="black"/><h2>Câu chuyện thương hiệu </h2> <hr width="500px" align="left" color="black"/>
+    </center>
+    <center>
+  <div id="container123">
+<div id="right"  >
+<img class="slide-right" src="banh-tiramisu.jpg"/>
+</div>
+<div id="left" class="slide-left">  
+   <h3 class="left12">
+    Câu chuyện</h3>
+   <h2 class="left12" style="font-family: Dancing Script">
+ Liceria Bakery</h2>
+  <div >
+<p style="font-size: 20px">Trải nghiệm ẩm thực bánh ngọt tuyệt vời tại Liceria Bakery!</p>
+<p style="font-size: 20px">Hành trình 13 năm hoàn thiện và phát triển. Gần 30 cơ sở phục vụ.</p>
+<p style="font-size: 20px">“Chúng tôi tự tin dẫn đầu với uy tín và chất lượng,<br>
+Chúng tôi am hiểu ẩm thực bánh và khẩu vị người Việt,<br>
+Chúng tôi không ngừng đổi mới và sáng tạo”.</p>
+<p style="font-size: 20px">Trải nghiệm ẩm thực bánh tuyệt vời tại thương hiệu bánh ngọt đến từ Singapore ngay hôm nay!</p>
+  </div>
+</div>
+</div>
+  </center>
+    <center>
+      <hr width="500px" align="left" color="black"/><h2> Danh mục sản phẩm </h2> <hr width="500px" align="left" color="black"/>
+    </center>
+    <center>
+    <div id="sanpham">
+  <a href="sanpham.html"><div id="sanpham1"><h4 class="tensanpham">Bánh kem</h4>
+ <img src="bánh kem.png"/>
+    </div></a>
+<a href="sanpham.html"><div id="sanpham2"><h4 class="tensanpham" style="margin-left:70px">Bánh Chocolate</h4>
+ <img src="6522.jpg" />
+    </div></a>
+<a href="sanpham.html"><div id="sanpham3"><h4 class="tensanpham" style="margin-left:70px">Bánh Hot trend</h4>
+ <img src="soko-cake-bake-amp-brunch-828513.jpg"/>
+    </div></a>
+</div>
+    </center>
+     <center style="margin-top:50px">
+      <hr width="500px" align="left" color="black"/><h2> Góc ẩm thực </h2> <hr width="500px" align="left" color="black"/>
+    </center>
+    <center>
+      <div id="tintuc">
+        <div id="tin1">
+          <a href="tin1.html"><img src="cac-loai-duong-dung-trong-lam-banh.jpg"/></a>
+          <a style="margin-left:10px; margin-top:-40px" href="tin1.html"><h4>
+             Phân biệt các loại đường dùng để làm bánh
+            </h4></a>
+        </div>
+        <div id="tin2">
+          <a href="tin2.html"><img src="cac loai banh ngot.jpg"/></a>
+          <a style="margin-left:40px; margin-top:-40px" href="tin2.html"><h4>
+            Những loại bánh ngọt
+            </h4></a>
+        </div>
+        <div id="tin3">
+          <a href="tin3.html"><img src="Bao quan banh kem.jpg"/></a>
+          <a style="margin-left:10px; margin-top:-40px" href="tin3.html"><h4>
+            Hướng dẫn cách bảo quản bánh kem tại nhà
+            </h4></a>
+        </div>
+      </div>
+    </center>
+    
+    </body>
+    <footer class="footer">
+      <div class="container1">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Về cửa hàng</h4>
+            <ul>
+              <li><a href="#">cửa hàng của chúng tôi</a></li>
+              <li><a href="#">Dịch vụ của chúng tôi</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+           <h4>Nhận sự giúp đỡ ở</h4>
+            <ul>
+              
+              <li><a href="#">Giao hàng</a></li>
+              <li><a href="#">Cách liên hệ với chúng tôi</a></li>
+              <li><a href="#">Cách thanh toán</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Thành viên</h4>
+            <ul>
+              <li>Lê Thị Ngọc Ánh-21059631</li>
+              <li>Phạm Nguyễn Thu Hiền-21062271</li>
+              <li>Nguyễn Bảo Khang-21050011</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Theo dõi chúng tôi tại</h4>
+            <div class="map">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.858237982653!2d106.68427047481872!3d10.82215888932937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174deb3ef536f31%3A0x8b7bb8b7c956157b!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBUUC5IQ00!5e0!3m2!1svi!2s!4v1713881891924!5m2!1svi!2s"
+                width="300px"
+                height="300px"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+</html>

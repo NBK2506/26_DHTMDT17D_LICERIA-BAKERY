@@ -1,0 +1,217 @@
+*
+{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #d3dbef;
+    height: 100%;
+}
+.form-auth-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.form-auth {
+  width: 500px;
+  padding: 1.75rem 1rem 1.75rem 1rem;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "apple color emoji", "segoe ui emoji", "Segoe UI Symbol", "noto color emoji";
+  border-radius: .75rem;
+  background-color: #fff;
+  position: relative;
+}
+.form-auth .btn-close
+{
+    position: absolute;
+    top : 10px;
+    right: 10px;
+    color : red;
+    width: 24px;
+    height: 24px;
+}
+.form-auth .btn-close:hover
+{
+    transform : rotate(180deg);
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .3s;
+}
+.form-auth .logo {
+  text-align: center;
+}
+.form-auth button {
+    cursor: pointer;
+}
+.form-auth .logo svg {
+  width: 70px;
+  height: 100%;
+}
+.form-auth .header
+{
+    text-align: center;
+}
+.form-auth .header .title
+{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+}
+.form-auth .header .description
+{
+    color : #545262;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.form-auth .btn-signup
+{
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    background-color: rgba(90,188,132);
+    color : #fff;
+    width: 100%;
+    padding : 1rem 0;
+    text-align: center;
+    border-radius: .5rem;
+    border: 0;
+    margin : 0 auto;
+    width: 380px;
+    display: block;
+}
+.form-auth .btn-signup:hover{
+    background-color: rgba(78,170,118);
+}
+.form-auth .footer
+{
+    margin-top : 1rem;
+    width: 380px;
+    color : #b7bdcc;
+    font-size: .75rem;
+
+}
+.form-auth .footer .terms-of-service
+{
+}
+.form-auth .footer a
+{
+    color : #312f40;
+}
+.form-auth .btn-login{
+    outline: 0;
+    border: 0;
+    color : rgba(90,188,132);
+}
+.pc
+{
+    margin : 0 auto;
+}
+.text-center
+{
+    text-align: center;
+}
+.bg-transparent
+{
+    background-color: transparent;
+}
+._fcb:hover
+{
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+}
+._fcb
+{
+    -webkit-text-decoration-line: none;
+    text-decoration-line: none;
+}
+.form-group{
+  display: flex;
+  justify-content: center;
+  margin : 0 auto;
+  flex-direction: column;
+  gap : .75rem;
+  padding-top: 0.9rem;
+  width: 380px;
+  
+}
+input{
+height: 46px;
+width: 380px;
+outline: none;
+padding: 10px;
+font-size: inherit;
+color: #202124;
+transition:all 0.3s ease-in-out;
+display: flex;
+align-items: center;
+gap : 30px;    
+border-radius: .5rem;
+border : 1px solid #d3dbef;
+background-color: rgba(255,255,255);
+cursor: pointer;
+}
+
+.room{
+display: flex;
+align-items: center;
+gap : 30px; 
+position: absolute;
+padding: 0px 5px;
+left: 90px;
+top: 36%;
+transform: translateY(-60%);
+background:#fff;
+transition: all 0.3s ease-in-out;
+color:gray;
+}
+.room12{
+display: flex;
+align-items: center;
+gap : 30px; 
+position: absolute;
+padding: 0px 5px;
+left: 90px;
+top: 46%;
+transform: translateY(-50%);
+background:#fff;
+transition: all 0.3s ease-in-out;
+color:gray;
+}
+.roomm{ 
+position: absolute;
+padding: 0px 5px;
+left: 90px;
+top: 57%;
+transform: translateY(-53%);
+background:#ffffff;
+transition: all 0.3s ease-in-out;
+color:gray;
+}
+.form-group input:focus {
+border: 2px solid #1a73e8;
+}
+.form-group input:focus + .room, .form-group input:valid + .room{
+top: 31%;
+font-size: 13px;
+font-weight: 500;
+color: #1a73e8;
+}
+.form-group input:focus + .room12, .form-group input:valid + .room12{
+top: 41%;
+font-size: 13px;
+font-weight: 500;
+color: #1a73e8;
+}
+.form-group input:focus + .roomm,.form-group input:valid + .roomm{
+top: 52%;
+font-size: 13px;
+font-weight: 500;
+color: #1a73e8;
+}
+a{
+  text-decoration: none;
+}

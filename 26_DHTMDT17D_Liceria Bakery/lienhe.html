@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Liên hệ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="lienhe.css"/>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  </head>
+  <header id="fixNav">
+    <div>
+    <center>
+      <table> 
+      <td> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+      <td> <img width="120 px" height="120px" src="logo.png" align="middle"></td>  
+    <td><a href="trangchu.html">Trang chủ</a></td>
+    <td><a href="sanpham.html">Sản phẩm</a></td>
+    <td><a href="gioithieu.html">Giới thiệu</a></td>
+    <td><a href="#">Cửa hàng</a></td>
+    <td><a href="lienhe.html">Liên hệ</a></td>
+    <td> &emsp;&emsp;&emsp;</td>
+    <td> 
+    <div class="box" >
+      <input class="search" type="text" placeholder="Bạn cần tìm gì?"/>
+      <a type="submit" href="javascript:void(0);">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      </a>
+    </div>
+      </td>
+      <td><button id="cart">
+                <i class="bx bxs-shopping-bag bx-sm" aria-hidden="true"></i>
+        </button></td>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Giỏ Hàng</h5>
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                            <span class="cart-price cart-header cart-column">Giá</span>
+                            <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                        </div>
+                        <div class="cart-items">
+                           
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Tổng Cộng:</strong>
+                            <span class="cart-total-price">0VNĐ</span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                        <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                    </div>
+                </div>
+            </div>
+        <script src="trangchuvaconlai.js"></script>
+      <td><a href="login.html">Đăng nhập</a></td>
+     </table>
+        </center>
+      </div>
+  </header>
+  <body >
+    <center>
+    <div id="container123">
+<h3 style="color:peru; margin-bottom:20px; font-size:24px; background-color:white; display:inline-block">
+    LIÊN HỆ
+  </h3>
+  <hr width="100%" color="red"/>
+  
+  <table>
+    <tr>
+      <td class="l" style="font-size:24px">Thông tin</td> 
+      <td> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+      <td class="l" style="color:RosyBrown; font-size:24px; background-color:white">Hãy liên lạc với chúng tôi bất cứ khi nào!!!</td>
+    </tr>
+    <tr>
+      <td class="l" > <i class="fa-solid fa-location-dot"></i> 12, Nguyễn Văn Bảo, P.3, Gò Vấp, Tp.HCM</td>
+      <td> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+       <td class="l"> <input style="padding:10px 20px" type="Text" value="" placeholder="Họ và tên" size="50"/> </td>
+    </tr>
+    <tr>
+      <td class="l"> <i class="fa-regular fa-envelope"></i> nbkhang2506@gmail.com </td>
+      <td> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+      <td class="l"> <input style="padding:10px 20px" type="Text" value="" placeholder="Địa chỉ e-mail" size="50"/> </td>
+    </tr>
+    <tr>
+      <td class="l"> <i class="fa-solid fa-phone-volume"></i> 0816417077</td>
+      <td> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+      <td class="l"> <input style="padding:10px 20px" type="Text" value="" placeholder="Tiêu đề bài viết" size="50"/> </td>
+    </tr>
+    <tr>
+      <td class="l"></td>
+      <td> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+       <td class="l"> <input style="padding:100px 20px" width="500px" type="Text" value="" placeholder="Nội dung cần gửi" size="50"/> </td>
+    </tr>
+    <tr>
+      <td class="l"></td>
+      <td> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+      <td class="l"> <button style="background:lightblue;padding:10px 20px; color: white" type="button"> <a href="trangchu.html">
+    Gửi </a></button> </td>
+    </tr>
+  </table>
+       </div>
+    </center>
+    <a class="contract1" href ="tel:0816417077"><i class="fa-solid fa-phone"></i></a> &emsp;
+    <a class="contract2" href ="Facebook"><i class="fa-brands fa-facebook"></i></a> &emsp;
+    <a class="contract3" href ="Gửi tin nhắn"><i class="fa-brands fa-facebook-messenger"></i></a>
+    </body>
+  <footer class="footer">
+      <div class="container1">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Về cửa hàng</h4>
+            <ul>
+              <li><a href="#">cửa hàng của chúng tôi</a></li>
+              <li><a href="#">Dịch vụ của chúng tôi</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+           <h4>Nhận sự giúp đỡ ở</h4>
+            <ul>
+              
+              <li><a href="#">Giao hàng</a></li>
+              <li><a href="#">Cách liên hệ với chúng tôi</a></li>
+              <li><a href="#">Cách thanh toán</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Thành viên</h4>
+            <ul>
+              <li>Lê Thị Ngọc Ánh-21059631</li>
+              <li>Phạm Nguyễn Thu Hiền-21062271</li>
+              <li>Nguyễn Bảo Khang-21050011</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Theo dõi chúng tôi tại</h4>
+            <div class="map">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.858237982653!2d106.68427047481872!3d10.82215888932937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174deb3ef536f31%3A0x8b7bb8b7c956157b!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBUUC5IQ00!5e0!3m2!1svi!2s!4v1713881891924!5m2!1svi!2s"
+                width="300px"
+                height="300px"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </html>
